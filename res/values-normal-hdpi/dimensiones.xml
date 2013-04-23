@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_h1">30dp</dimen>
+    <dimen name="text_h2">25dp</dimen>      
+    <dimen name="logo">135dp</dimen>
+    <dimen name="text_small">20dp</dimen>
+    
+    <dimen name="text_h1p">15dp</dimen>
+    <dimen name="text_h2p">12dp</dimen>      
+    <dimen name="logop">67dp</dimen>
+    <dimen name="text_smallp">10dp</dimen>
+</resources>

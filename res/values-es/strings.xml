@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSSMonter</string>  
+    <string name="title_activity_article_list">Articulos</string> 
+    <string name="splash_subtitle">Noticias de la tierra!!!</string> 
+    <string name="action_settings">Ajustes</string> 
+    <string name="splash_version">Versión 1.0</string>
+    
+    <string name="about_text">
+    	Lorem ipsum(Español)dolor sit amet, consectetur adipiscing elit. 
+    	
+    	Nullam euismod auctor sem, id scelerisque leo blandit a. Mauris rhoncus aliquet odio at mollis. Donec suscipit, metus non hendrerit bibendum, est enim luctus dui, sit amet scelerisque sem lectus in nisi. Donec at mi nisl, nec imperdiet lacus. Mauris sollicitudin, leo et ornare interdum, tellus ipsum elementum eros, tempus lacinia augue nibh eget metus. Suspendisse iaculis mollis lacus, ut eleifend est malesuada et. Proin scelerisque velit nec lectus pellentesque iaculis.    	
+    </string>
+    <string name="about_license">    	
+        Maecenas non est arcu. (Español)Vivamus auctor nunc eget sapien tempor tristique. 
+        
+        Maecenas placerat mollis velit quis elementum. Donec porttitor, tellus non tempus iaculis, orci nibh placerat turpis, at imperdiet quam dolor quis ligula. In placerat gravida nulla, nec vestibulum dui fermentum nec. Nulla justo dolor, mollis nec congue id, pharetra in neque. Donec ultricies sapien sit amet tellus tincidunt volutpat. Proin tortor risus, convallis non adipiscing quis, adipiscing quis justo. Nulla placerat, nibh sit amet aliquam pretium, nibh magna vehicula massa, in consequat nulla leo pharetra leo. Quisque at massa magna, facilisis fermentum risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec placerat dolor eu orci iaculis vehicula. Cras convallis odio ac nisl commodo interdum. Fusce mattis turpis eu felis eleifend vitae ullamcorper nunc dapibus.               
+    </string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="title_activity_setting">Preferencias</string>
+</resources>

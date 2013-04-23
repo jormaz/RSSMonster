@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSSMonster</string>
+    <string name="splash_title">RSS Monster</string>    
+    <string name="title_activity_splash">RSS Monster</string>
+    <string name="title_activity_article_list">Articles list</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="splash_subtitle">earth news!!!</string>
+    <string name="splash_siritinga">Siritinga</string>
+    <string name="splash_version">Version 1.0</string>
+    
+    <string name="about_text">        Lorem ipsum (By Default - English) dolor sit amet, consectetur adipiscing elit. Nulla hendrerit nisl non elit condimentum facilisis adipiscing dui scelerisque. Praesent ornare, magna ut suscipit bibendum, metus augue tristique arcu, a faucibus massa lacus lacinia turpis. 
+      
+        Duis fringilla, metus eu cursus gravida, massa nisl vulputate felis, vel dictum mauris purus at nisi. Suspendisse nec nisi felis. Cras et mi nisi, dapibus convallis dolor. Integer nulla elit, pharetra at lobortis eget, sagittis eget tortor. Etiam dolor orci, malesuada eu scelerisque vel, suscipit eget dolor. Fusce dui ipsum, aliquet vel fringilla sit amet, pulvinar quis massa. Vivamus urna nisl, pretium bibendum vehicula ac, hendrerit non tortor. Duis mattis massa eget justo imperdiet lobortis dictum ligula porttitor. Maecenas diam sem, pretium vitae auctor in, egestas et odio. Sed ac est sapien. Fusce malesuada leo quis ligula venenatis molestie. Nullam vel hendrerit ligula.</string>
+    <string name="about_license">        Integer enim nulla,   (By Default - English)pellentesque nec posuere consequat, consequat sit amet ipsum.
+        
+        Nam est nisi, aliquam sed ultrices at, commodo sed magna. Ut eu tincidunt diam. Vivamus dictum semper tellus, eu commodo ipsum blandit eu. Sed sed mi id arcu rutrum laoreet sit amet eu lorem. Suspendisse hendrerit eros non mauris tempor id faucibus purus vestibulum. Fusce consectetur dignissim est eu congue. Duis libero quam, pulvinar tempus semper a, semper a diam. Mauris sit amet velit mi, nec porta sapien. Vivamus sit amet laoreet urna. Nulla vehicula porta neque quis dapibus.            </string>
+    <string name="title_activity_about">About us</string>
+    <string name="title_activity_setting">Preferences</string>
+    <string name="hello_world">Hello world!</string>
+    
+
+</resources>

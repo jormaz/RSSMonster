@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupAbout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+    android:padding="@dimen/relleno">
+    <TextView        
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_title"
+            android:textSize="@dimen/text_h1p" 
+            android:textColor="@color/gris"/>
+    <TextView
+         android:id="@+id/about_version"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"         
+         android:layout_alignParentRight="true"
+         android:text="@string/splash_version"
+         android:textColor="@color/negro"
+         android:textSize="@dimen/text_smallp" />
+
+    <TextView
+        android:id="@+id/about_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/text_h1p"
+        android:text="@string/splash_subtitle"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/text_h2p" />
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/about_subtitle"
+    android:background="@drawable/panel_title" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_text" 
+            android:textSize="@dimen/text_smallp"
+            android:textColor="@color/negro"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_license"
+            android:textSize="@dimen/text_smallp" 
+            android:textColor="@color/gris"/>
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>
