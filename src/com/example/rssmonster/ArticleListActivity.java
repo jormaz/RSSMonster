@@ -86,6 +86,8 @@ public class ArticleListActivity extends Activity {
 				   popup.setWidth(popupWidth);
 				   popup.setHeight(popupHeight);
 				   popup.setFocusable(true);
+				   //Comentario
+				   //Comentario2
 				
 				// Displaying the popup at the specified location, + offsets.
 				   Point p = new Point(30,30);
