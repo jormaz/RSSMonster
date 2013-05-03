@@ -23,11 +23,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.rssmonster.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="jormaz.intent.action.LIST_ARTICLES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
          <activity
             android:name="com.example.rssmonster.ArticleListActivity"
             android:label="@string/title_activity_article_list"> 
             <intent-filter>
-                <action android:name="android.intent.action.LIST_ARTICLES" />
+                <action android:name="jormaz.intent.action.LIST_ARTICLES" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -37,7 +47,7 @@
             android:label="@string/title_activity_about"
             android:theme="@android:style/Theme.Dialog">
             <intent-filter>
-                <action android:name="android.intent.action.ABOUT" />
+                <action android:name="jormaz.intent.action.ABOUT" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

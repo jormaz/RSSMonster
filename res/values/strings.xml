@@ -20,6 +20,12 @@
     <string name="title_activity_about">About us</string>
     <string name="title_activity_setting">Preferences</string>
     <string name="hello_world">Hello world!</string>
+    <string-array name="datos">
+        <item >Madrid</item>
+        <item >Palma</item>
+        <item >Barcelona</item>
+    </string-array>
+    
     
 
 </resources>

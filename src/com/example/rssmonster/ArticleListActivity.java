@@ -1,8 +1,12 @@
 package com.example.rssmonster;
 
+import com.example.rssmonster.data.DummyFeeds; 
+import com.example.rssmonster.widget.FeedsAdapter;
+
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.app.Activity;
+import android.app.ListActivity;
 import android.content.Context;
 //import android.content.Intent;
 import android.graphics.Point;
@@ -12,15 +16,41 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
-public class ArticleListActivity extends Activity {
+
+
+public class ArticleListActivity extends ListActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.article_list);
+		//setContentView(R.layout.article_list);
+		DummyFeeds dummy = new DummyFeeds();
+		final FeedsAdapter adapter = new FeedsAdapter(this, dummy.getDummyFeeds());
+				
+		setListAdapter(adapter);
+		
+		
+		/* Prácticas
+		ListView listView =(ListView) findViewById(R.id.listView1);
+		String[] datos = getResources().getStringArray(R.array.datos);
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R .layout.simple_list_item_1,datos); 
+		//adapter.addAll(datos);//Se puede quitar
+		listView.setAdapter(adapter);
+		
+		listView.setOnItemClickListener(new OnItemClickListener() {			 
+			@Override
+			public void onItemClick(AdapterView<?> adapter, View arg1, int position, long arg3) {
+				Toast.makeText(ArticleListActivity .this, 
+						(String)adapter.getItemAtPosition(position) , 
+						Toast.LENGTH_LONG).show();
+			}
+		});
+		*/
+
 	}
 
 	

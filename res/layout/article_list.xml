@@ -1,43 +1,19 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"    
+    android:background="@drawable/background"
     tools:context=".SplashActivity" >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="@dimen/logop"
-        android:layout_height="@dimen/logop"        
-        android:contentDescription="@string/splash_siritinga"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp"
-        android:src="@drawable/jack3"
-        android:gravity="center" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/panel_title"        
-        android:orientation="vertical" >
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="1" >
 
-        <TextView
-            android:id="@+id/textTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/title_activity_article_list"
-            android:textSize="@dimen/text_h1p" />
+    </ListView>
 
-        <TextView
-            android:id="@+id/textSubtitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="@string/splash_subtitle"
-            android:textColor="@color/orange"
-            android:textSize="@dimen/text_h2p" />
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>
