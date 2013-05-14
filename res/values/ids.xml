@@ -3,4 +3,13 @@
     <item type="id" name="feed_listitem_title" />
     <item type="id" name="feed_listitem_date" />
     
+    <item type="id" name="article_detail" />
+        
+    <item type="id" name="article_title" />
+    <item type="id" name="article_date" />
+    <item type="id" name="article_description" />
+    <item type="id" name="article_content" />
+    <item type="id" name="article_link" />
+    
+    
 </resources>

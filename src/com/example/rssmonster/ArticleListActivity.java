@@ -1,5 +1,7 @@
 package com.example.rssmonster;
 
+import com.example.rssmonster.app.AppIntent;
+import com.example.rssmonster.app.RssIntent;
 import com.example.rssmonster.data.DummyFeeds; 
 import com.example.rssmonster.widget.FeedsAdapter;
 
@@ -8,6 +10,7 @@ import android.os.Vibrator;
 import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Context;
+import android.content.Intent;
 //import android.content.Intent;
 import android.graphics.Point;
 //import android.graphics.drawable.BitmapDrawable;
@@ -18,6 +21,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.PopupWindow;
 
 
@@ -28,9 +32,12 @@ public class ArticleListActivity extends ListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//setContentView(R.layout.article_list);
+		
+		/*Hash
 		DummyFeeds dummy = new DummyFeeds();
 		final FeedsAdapter adapter = new FeedsAdapter(this, dummy.getDummyFeeds());
-				
+		*/
+		final FeedsAdapter adapter = new FeedsAdapter(this);		
 		setListAdapter(adapter);
 		
 		
@@ -52,7 +59,12 @@ public class ArticleListActivity extends ListActivity {
 		*/
 
 	}
-
+	@Override
+	protected void onListItemClick(ListView l, View v, int position, long id) {
+		Intent intent = AppIntent.getArticleIntent(id);
+		
+		startActivity(intent);
+	}
 	
 
 	//...

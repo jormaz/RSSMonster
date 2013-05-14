@@ -6,7 +6,7 @@ import android.provider.BaseColumns;
 public class FeedContract {
 
 	public static final String DB_NAME = "feeds.db";
-	public static final String AUTHORITY = "org.francho.unutopia_android";
+	public static final String AUTHORITY = "com.example.rssmonster";
 
 	public static class Articles implements BaseColumns {
 		private Articles() {

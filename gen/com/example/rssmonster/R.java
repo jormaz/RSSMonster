@@ -72,33 +72,44 @@ public final class R {
         public static final int rssold=0x7f020013;
     }
     public static final class id {
-        public static final int about_subtitle=0x7f060005;
-        public static final int about_title=0x7f060003;
-        public static final int about_version=0x7f060004;
-        public static final int action_settings=0x7f06000d;
-        public static final int button1=0x7f06000b;
+        public static final int about_subtitle=0x7f06000b;
+        public static final int about_title=0x7f060009;
+        public static final int about_version=0x7f06000a;
+        public static final int action_settings=0x7f060014;
+        public static final int article_content=0x7f060006;
+        public static final int article_date=0x7f060004;
+        public static final int article_description=0x7f060005;
+        public static final int article_detail=0x7f060002;
+        public static final int article_detail_container=0x7f06000c;
+        public static final int article_link=0x7f060007;
+        public static final int article_title=0x7f060003;
+        public static final int button1=0x7f060012;
         public static final int feed_listitem_date=0x7f060001;
         public static final int feed_listitem_title=0x7f060000;
-        public static final int imageView1=0x7f06000a;
-        public static final int linearLayout1=0x7f060007;
-        public static final int listView1=0x7f060006;
-        public static final int popupAbout=0x7f060002;
-        public static final int shape_button=0x7f06000c;
-        public static final int textSubtitle=0x7f060009;
-        public static final int textTitle=0x7f060008;
+        public static final int imageView1=0x7f060011;
+        public static final int linearLayout1=0x7f06000e;
+        public static final int listView1=0x7f06000d;
+        public static final int popupAbout=0x7f060008;
+        public static final int shape_button=0x7f060013;
+        public static final int textSubtitle=0x7f060010;
+        public static final int textTitle=0x7f06000f;
     }
     public static final class layout {
         public static final int about=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int article_list=0x7f030002;
-        public static final int feed_listitem=0x7f030003;
-        public static final int splash=0x7f030004;
+        public static final int activity_article=0x7f030001;
+        public static final int activity_article_detail=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int article_list=0x7f030004;
+        public static final int feed_listitem=0x7f030005;
+        public static final int fragment_article_detail=0x7f030006;
+        public static final int splash=0x7f030007;
     }
     public static final class menu {
         public static final int about=0x7f0a0000;
-        public static final int article_list=0x7f0a0001;
-        public static final int main=0x7f0a0002;
-        public static final int splash=0x7f0a0003;
+        public static final int article=0x7f0a0001;
+        public static final int article_list=0x7f0a0002;
+        public static final int main=0x7f0a0003;
+        public static final int splash=0x7f0a0004;
     }
     public static final class string {
         public static final int about_license=0x7f070009;
@@ -111,6 +122,7 @@ public final class R {
         public static final int splash_title=0x7f070001;
         public static final int splash_version=0x7f070007;
         public static final int title_activity_about=0x7f07000a;
+        public static final int title_activity_article=0x7f07000d;
         public static final int title_activity_article_list=0x7f070003;
         public static final int title_activity_setting=0x7f07000b;
         public static final int title_activity_splash=0x7f070002;
